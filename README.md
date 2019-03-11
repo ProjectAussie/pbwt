@@ -1,5 +1,5 @@
-Tiago's suggestions for install
--------------------------------
+Suggestions for installation on conda
+-------------------------------------
 
 - `conda install gcc`
 - `export LD_LIBRARY_PATH=/home/ubuntu/miniconda/lib`
