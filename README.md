@@ -1,3 +1,13 @@
+Tiago's suggestions for install
+-------------------------------
+
+- `conda install gcc`
+- `export LD_LIBRARY_PATH=/home/ubuntu/miniconda/lib`
+- `make clean; make`
+
+
+Now, the standard document
+--------------------------
 The pbwt package provides a core implementation and development
 environment for PBWT (Positional Burrows-Wheeler Transform) methods
 for storing and computing on genome variation data sets.  
