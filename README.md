@@ -2,6 +2,7 @@ Suggestions for installation on conda
 -------------------------------------
 
 - `conda install gcc`
+- `conda install -c bioconda htlib`
 - `export LD_LIBRARY_PATH=/home/ubuntu/miniconda/lib`
 - `make clean; make`
 
