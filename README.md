@@ -2,7 +2,7 @@ Suggestions for installation on conda
 -------------------------------------
 
 - `conda install gcc`
-- `conda install -c bioconda htlib`
+- `conda install -c bioconda htslib`
 - `export LD_LIBRARY_PATH=/home/ubuntu/miniconda/lib`
 - `make clean; make`
 
@@ -11,7 +11,7 @@ Now, the standard document
 --------------------------
 The pbwt package provides a core implementation and development
 environment for PBWT (Positional Burrows-Wheeler Transform) methods
-for storing and computing on genome variation data sets.  
+for storing and computing on genome variation data sets.
 
 More precisely, PBWT supports a run-length compressed representation
 of aligned haplotype data, on which efficient matching algorithms can
@@ -60,7 +60,7 @@ A quick synopsis for usage is:
     macs 11000 1e6 -t 0.001 -r 0.001 > 11k.macs
     pbwt -checkpoint 10000 -readMacs 11k.macs -write macs11k.pbwt -writeSites macs.sites
 
-NB "checkpoint 10000" writes out files every 10000 sites during the vcfq 
+NB "checkpoint 10000" writes out files every 10000 sites during the vcfq
 conversion to alternating checkA.{pbwt,sites} and checkB.{pbwt,sites} files.
 
     pbwt -read macs11k.pbwt -subsample 0 10000 -write macs10k.pbwt
